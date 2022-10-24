@@ -24,7 +24,7 @@ const swaggerDocs = (app: Application) => {
   })
 
   console.log(
-    `Version 1 Docs are available at http://localhost:${app.get('port')}/api/v1/docs`
+    `📋 Version 1 Docs 📋 are available at http://localhost:${app.get('port')}/api/v1/docs`
   );
 };
 

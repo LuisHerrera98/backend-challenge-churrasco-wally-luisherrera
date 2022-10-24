@@ -2,8 +2,9 @@ import app from './app'
 import './database/database'
 
 const main = () =>{
-    app.listen(process.env.PORT || app.get('port'));
-    console.log(`listening on ${app.get('port')}`)
+    const port = process.env.PORT || app.get('port')
+    app.listen(port);
+    console.log(`🚀 listening on ${port}`)
 }
 
 main();
