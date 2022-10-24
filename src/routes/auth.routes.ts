@@ -71,7 +71,7 @@ router.post('/login', login)
  * @swagger
  * /api/auth/users:
  *  get:
- *    summary: Returns a list of product
+ *    summary: Returns a list of users
  *    tags: [User]
  *    responses:
  *      200:
