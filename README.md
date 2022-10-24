@@ -36,24 +36,25 @@ Para las validaciones: Joi Js
 ### RUTAS / APIS 
 #### Usuario
 Login del usuario
-POST:
+POST
     localhost:3000/api/auth/login
 
 Listar Usuarios
-GET:
+GET
     localhost:3000/api/auth/users
 
 #### Productos  (Necesita el token)
-header: Authorization :  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDUyMzI4OTEwMmE0YjUzMDhjODAzNDkiLCJpYXQiOjE2NjYyODkwNjd9.RQ3FwbETA6xk9exVD0uu6RAqPV8wv1-YzhMwxU1avXc
+header - Authorization
+    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDUyMzI4OTEwMmE0YjUzMDhjODAzNDkiLCJpYXQiOjE2NjYyODkwNjd9.RQ3FwbETA6xk9exVD0uu6RAqPV8wv1-YzhMwxU1avXc
 
 Listar los productos
-GET:
+GET
     localhost:3000/api/product
 
 Crear producto:
-POST:
+POST
     localhost:3000/api/product/create
-    
+
 Filtrar producto por id:
-GET:
+GET
     localhost:3000/api/product/ (_id)
